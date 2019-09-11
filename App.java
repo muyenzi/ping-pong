@@ -10,6 +10,7 @@ public class App {
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
         System.out.println("I'm a ping-pong application!");
         System.out.println("Enter a number:");
+        System.out.println("thanks");
         try {
             String stringUserNumber = bufferedReader.readLine();
             int intUserNumber = Integer.parseInt(stringUserNumber);
